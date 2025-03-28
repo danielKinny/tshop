@@ -44,7 +44,7 @@ export default function Home() {
   ]
 
   return (
-    <div className='text-white bg-black min-h-screen'>
+    <div>
       <header className='text-center border-b-2 border-gray-800 mb-4'>
         <h1 className='text-4xl font-bold p-6'>
           fund my next big back adventure!!!
