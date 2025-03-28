@@ -1,15 +1,6 @@
 
-"use client";
-import React from 'react';
-import {
-  Carousel,
-  CarouselItem,
-  CarouselContent,
-  CarouselNext,
-  CarouselPrevious,
 
-} from "../components/ui/carousel";
-
+import React from "react";
 import ProductBar from "../components/ui/productbar";
 export default function Home() {
 
