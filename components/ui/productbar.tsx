@@ -44,14 +44,14 @@ const ProductBar = () => {
                   {
                   clothes.map((product, index) => (
                     <div key={index} className='p-4 border-b border-gray-300 max-w-2xl text-center'>
-                      <h2 className='text-2xl font-semibold'>{product.name}</h2>
-                      <div className='flex justify-center items-center'>
+                      <h2 className='text-2xl font-semibold text-center'>{product.name}</h2>
+                      <div className='flex justify-center items-center text-center'>
                       
                         <Carousel
                 opts={{
                   align: "start",
                 }}
-                className="w-full max-w-sm p-4"
+                className="w-full max-w-sm p-4 justify-center items-center"
               >
                           <CarouselContent>
                             <CarouselItem>
@@ -72,7 +72,7 @@ const ProductBar = () => {
                         </Carousel>
                       </div>
                       
-                      <p className='text-xl font-bold'>{product.price +" dirhams"}</p>
+                      <p className='text-xl font-bold text-center'>{product.price +" dirhams"}</p>
                     </div>
                   ))
         }
