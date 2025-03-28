@@ -40,7 +40,7 @@ interface productType {
     ]
 const ProductBar = () => {
     return (
-        <div className='border border-gray-500 rounded-lg p-4'>
+        <div className='border-b border-t border-gray-500 rounded-lg p-4'>
                   {
                   clothes.map((product, index) => (
                     <div key={index} className='p-4 border-b border-gray-300 max-w-2xl text-center'>
