@@ -63,7 +63,7 @@ export default function Home() {
         <div className='border border-gray-500 rounded-lg p-4'>
           {
           clothes.map((product, index) => (
-            <div key={index} className='p-4 border-b border-gray-800 max-w-2xl text-center'>
+            <div key={index} className='p-4 border-b border-gray-300 max-w-2xl text-center'>
               <h2 className='text-2xl font-semibold'>{product.name}</h2>
               <div className='flex justify-center items-center'>
               
