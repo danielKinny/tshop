@@ -40,16 +40,11 @@ export default function Home() {
           fund my next big back adventure!!!
         </h1>
 
-        <h3 className='text-2xl font-semibold p-2'>
-          delisha if youre seeing this i luv u lol
-        </h3>
-
-        
       </header>
 
       <main className='flex flex-col justify-center items-center'>
         <h6 className=' text-center mb-10 font-semibold p-2'>
-                  if interested, contact 971545799032, prices negotiable but dont be kanjoos
+                  if interested, contact 971545799032, prices negotiable but dont be kanjoos bru
                 </h6>
         <div className='border border-gray-500 rounded-lg p-4'>
           {
