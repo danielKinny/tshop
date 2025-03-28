@@ -12,21 +12,21 @@ export default function Home() {
   const clothes : productType[] = [
     {
       id: "0001",
-      name: 'random school jacket from the US',
+      name: 'random school jacket from the U [L]',
       price: 25,
       front: "/images/0001-1.jpg",
       back: "/images/0001-2.jpg"
     },
     {
       id: "0002",
-      name: 'england shirt',
+      name: 'england shirt [L]',
       price: 30,
       front: "/images/0002-1.jpg",
       back: "/images/0002-2.jpg"
     },
     {
       id: "0003",
-      name: 'random employee polo',
+      name: 'random employee polo [M]',
       price: 10,
       front: "/images/0003-1.jpg",
       back: "/images/0003-2.jpg"
