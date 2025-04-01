@@ -7,11 +7,12 @@ export default function Home() {
   return (
     <div>
       <header className='text-center border-b-2 border-gray-800 mb-4 flex flex-wrap items-center justify-center'>
-        <h1 className='text-4xl font-bold p-6'>
+        <h1 className='text-4xl font-bold p-2'>
           fund my next big back adventure!!!
         </h1>
 
-        <a href="https://github.com/danielKinny/tshop">
+        <a href="https://github.com/danielKinny/tshop"
+        className="p-4">
           <img
           className="max-w-12 object-contain hover:cusor-pointer"
           alt="link to the github repo for this website"
