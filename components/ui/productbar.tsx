@@ -17,15 +17,22 @@ interface productType {
 
   const clothes : productType[] = [
     {
+      id: "0000",
+      name: 'mclovin shirt from superbad (branded) [S/M]',
+      price: 40,
+      front: "/images/0000-1.png",
+      back: "/images/0000-2.png"
+    },
+    {
       id: "0001",
       name: 'random school jacket [L]',
-      price: 25,
+      price: 30,
       front: "/images/0001-1.png",
       back: "/images/0001-2.png"
     },
     {
       id: "0002",
-      name: 'england shirt [L]',
+      name: "admiral branded 00's england polo [L]",
       price: 30,
       front: "/images/0002-1.png",
       back: "/images/0002-2.png"
@@ -36,7 +43,21 @@ interface productType {
       price: 10,
       front: "/images/0003-1.png",
       back: "/images/0003-2.png"
-    }
+    },
+    {
+      id: "0004",
+      name: 'PAKISTAN ZINDABAD [M]',
+      price: 20,
+      front: "/images/0004-1.png",
+      back: "/images/0004-2.png"
+    },
+    {
+      id: "0005",
+      name: 'cat jacksparrow lololol [L]',
+      price: 25,
+      front: "/images/0005-1.png",
+      back: "/images/0005-2.png"
+    },
     ]
 const ProductBar = () => {
     return (
