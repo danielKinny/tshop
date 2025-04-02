@@ -9,7 +9,6 @@ import {
     CarouselPrevious,
   
   } from "./carousel";
-import next from "next";
 interface productType {
     id: string;
     name: string;
