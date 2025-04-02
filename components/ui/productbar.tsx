@@ -21,7 +21,7 @@ interface productType {
     {
       id: "0000",
       name: 'mclovin shirt from superbad (branded) [S/M]',
-      price: 40,
+      price: 35,
       front: "/images/0000-1.png",
       back: "/images/0000-2.png"
     },
