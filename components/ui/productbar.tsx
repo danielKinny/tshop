@@ -1,4 +1,6 @@
 import React from "react";
+import Image from "next/image";
+//for whatever soul is reading this im using next images cos of optimisation stuffs
 import {
     Carousel,
     CarouselItem,
@@ -7,6 +9,7 @@ import {
     CarouselPrevious,
   
   } from "./carousel";
+import next from "next";
 interface productType {
     id: string;
     name: string;
@@ -75,16 +78,22 @@ const ProductBar = () => {
                 className="w-full max-w-sm p-4 justify-center items-center"
               >
                           <CarouselContent>
-                            <CarouselItem>
-                              <img
+                            <CarouselItem className="items-center justify-center flex">
+                              <Image
                                 src={product.front}
                                 className=" w-full rounded-lg"
+                                alt="front of the shirt"
+                                width={300}
+                                height={300}
                               />
                             </CarouselItem>
-                            <CarouselItem>
-                              <img
+                            <CarouselItem className="items-center justify-center flex">
+                              <Image
                                 src={product.back}
+                                width={300}
+                                height={300}
                                 className="w-full rounded-lg"
+                                alt="back of the shirt"
                               />
                             </CarouselItem>
                           </CarouselContent>
