@@ -26,13 +26,6 @@ interface productType {
       back: "/images/0000-2.png"
     },
     {
-      id: "0001",
-      name: 'random school jacket [L]',
-      price: 30,
-      front: "/images/0001-1.png",
-      back: "/images/0001-2.png"
-    },
-    {
       id: "0002",
       name: "admiral branded 00's england polo [L]",
       price: 30,
@@ -45,20 +38,6 @@ interface productType {
       price: 10,
       front: "/images/0003-1.png",
       back: "/images/0003-2.png"
-    },
-    {
-      id: "0004",
-      name: 'PAKISTAN ZINDABAD [M]',
-      price: 20,
-      front: "/images/0004-1.png",
-      back: "/images/0004-2.png"
-    },
-    {
-      id: "0005",
-      name: 'cat jacksparrow lololol [L]',
-      price: 25,
-      front: "/images/0005-1.png",
-      back: "/images/0005-2.png"
     },
     ]
 const ProductBar = () => {
@@ -105,6 +84,9 @@ const ProductBar = () => {
                     </div>
                   ))
         }
+            <p className="text-black text-center">
+                more stuff to come :)
+            </p>
                 </div>
     );
 }
