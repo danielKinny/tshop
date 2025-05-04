@@ -34,10 +34,10 @@ export default function Home() {
           selling sum stuff i find, all items are thrifted and in good conditon,
         </h6>
         <h6 className=' text-center font-semibold p-2'>
-            if interested, text me at 971545799032 or dm me on insta, if youre going to try and negotiate prices then dont be kanjoos bruh
+            if interested, text me at 971545799032 or dm me on insta
         </h6>
         <p className="text-center mb-10 font-semibold p-2">
-          also if anyone says they wanna buy it, people can steal it by buying it for 10 dirhams more (2 whole shawarmas for me) 
+          also if anyone says they wanna buy it, other people can steal it by buying it for 10 dirhams more (2 whole shawarmas for me) 
         </p>
         
         <ProductBar />

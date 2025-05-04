@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 //for whatever soul is reading this im using next images cos of optimisation stuffs
+// should probably design api for this but im laz y
 import {
     Carousel,
     CarouselItem,
@@ -17,29 +18,65 @@ interface productType {
     back: string;
     }
 
-  const clothes : productType[] = [
+  const clothes: productType[] = [
     {
       id: "0000",
-      name: 'mclovin shirt from superbad (branded) [S/M]',
+      name: "mclovin's id card from superbad [M]",
       price: 35,
       front: "/images/0000-1.png",
-      back: "/images/0000-2.png"
+      back: "/images/0000-2.png",
+    },
+    
+    {
+      id: "0006",
+      name: "hard soda mr.escobar [L]",
+      price: 25,
+      front: "/images/0006-1.png",
+      back: "/images/0006-2.png",
+    },
+    {
+      id: "0007",
+      name: " hbd grimace [L]",
+      price: 20,
+      front: "/images/0007-1.png",
+      back: "/images/0007-2.png",
+    },
+    {
+      id: "0008",
+      name: "luwahati sa pilipinas [M]",
+      price: 20,
+      front: "/images/0008-1.png",
+      back: "/images/0008-2.png",
+    },
+    {
+      id: "0009",
+      name: "cactus jack mcd's crew tee [M]",
+      price: 30,
+      front: "/images/0009-1.png",
+      back: "/images/0009-2.png",
+    },
+    {
+      id: "0010",
+      name: "chick-fil-a chiken [L]",
+      price: 15,
+      front: "/images/0010-1.png",
+      back: "/images/0010-2.png",
     },
     {
       id: "0002",
-      name: "admiral branded 00's england polo [L]",
+      name: "admiral branded englang 00's polo [L]",
       price: 30,
       front: "/images/0002-1.png",
-      back: "/images/0002-2.png"
+      back: "/images/0002-2.png",
     },
     {
       id: "0003",
-      name: 'random employee polo [M]',
+      name: "random employee polo[M]",
       price: 10,
       front: "/images/0003-1.png",
-      back: "/images/0003-2.png"
+      back: "/images/0003-2.png",
     },
-    ]
+  ];
 const ProductBar = () => {
     return (
         <div className='border-b border-t border-gray-500 rounded-lg p-4'>
