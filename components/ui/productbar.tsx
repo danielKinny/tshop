@@ -38,8 +38,8 @@ interface productType {
       id: "0007",
       name: " hbd grimace [L]",
       price: 20,
-      front: "/images/0007-1.png",
-      back: "/images/0007-2.png",
+      front: "/images/0009-1.png",
+      back: "/images/0009-2.png",
     },
     {
       id: "0008",
@@ -52,8 +52,8 @@ interface productType {
       id: "0009",
       name: "cactus jack mcd's crew tee [M]",
       price: 30,
-      front: "/images/0009-1.png",
-      back: "/images/0009-2.png",
+      front: "/images/0007-1.png",
+      back: "/images/0007-2.png",
     },
     {
       id: "0010",
