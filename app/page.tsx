@@ -1,16 +1,25 @@
 
-
+"use client";
 import React from "react";
 import ProductBar from "../components/ui/productbar";
+import SoldBar from "../components/ui/soldbar";
+import TsandcS from "../components/ui/tsandcs";
 import Image from "next/image";
 export default function Home() {
 
+  const [activeTab, setActiveTab] = React.useState<string>("selling");
+  const buttons = [
+    { name: "selling", onClick: () => setActiveTab("selling") },
+    { name: "sold", onClick: () => setActiveTab("sold") },
+    { name: "t&c's", onClick: () => setActiveTab("t&c's") },
+  ]
   return (
     <div>
       <header className='text-center border-b-2 border-gray-800 mb-4 flex flex-wrap items-center justify-center'>
         <h1 className='text-4xl font-bold p-2'>
           fund my next big back adventure!!!
         </h1>
+
 
         <a href="https://github.com/danielKinny/tshop"
         className="p-4 flex items-center justify-center">
@@ -29,18 +38,26 @@ export default function Home() {
 
       </header>
 
+      <nav className="flex border-black border-2">
+          {
+            buttons.map((button) => (
+              <button
+                key={button.name}
+                onClick={button.onClick}
+                className={`p-2 w-full text-center font-semibold ${activeTab === button.name ? "bg-black text-white" : "bg-white text-black"}`}
+              >
+                {button.name}
+              </button>
+            ))
+          }
+        </nav>
+
       <main className='flex flex-col justify-center items-center'>
-        <h6 className=' text-center font-semibold p-2'>
-          selling sum stuff i find, all items are thrifted and in good conditon,
-        </h6>
-        <h6 className=' text-center font-semibold p-2'>
-            if interested, text me at 971545799032 or dm me on insta
-        </h6>
-        <p className="text-center mb-10 font-semibold p-2">
-          also if anyone says they wanna buy it, other people can steal it by buying it for 10 dirhams more (2 whole shawarmas for me) 
-        </p>
         
-        <ProductBar />
+        
+        {(
+          activeTab == "selling" ? (<ProductBar/>) : activeTab == "sold" ? (<SoldBar/>) : (<TsandcS/>)
+        )}
         
       </main>
 
