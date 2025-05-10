@@ -1,7 +1,6 @@
 import React from "react";
 import Image from "next/image";
-//for whatever soul is reading this im using next images cos of optimisation stuffs
-// should probably design api for this but im laz y
+
 import {
     Carousel,
     CarouselItem,
@@ -10,7 +9,8 @@ import {
     CarouselPrevious,
   
   } from "./carousel";
-interface productType {
+
+export interface productType {
     id: string;
     name: string;
     price: number;
@@ -69,20 +69,26 @@ interface productType {
       front: "/images/0002-1.png",
       back: "/images/0002-2.png",
     },
-    {
-      id: "0003",
-      name: "random employee polo[M]",
-      price: 10,
-      front: "/images/0003-1.png",
-      back: "/images/0003-2.png",
-    },
   ];
 const ProductBar = () => {
     return (
-        <div className='border-b border-t border-gray-500 rounded-lg p-4'>
+
+        <div>
+          <h6 className=' text-center font-semibold p-2'>
+          selling sum stuff i find, all items are thrifted and in good conditon,
+        </h6>
+        <h6 className=' text-center font-semibold p-2'>
+            if interested, text me at 971545799032 or dm me on insta
+        </h6>
+        <p className="text-center mb-10 font-semibold p-2">
+          also if anyone says they wanna buy it, other people can steal it by buying it for 10 dirhams more (2 whole shawarmas for me) 
+        </p>
+        
+          <div className='border-b border-t border-gray-500 rounded-lg p-4'>
+          
                   {
                   clothes.map((product, index) => (
-                    <div key={index} className='p-4 border-b border-gray-300 max-w-2xl text-center'>
+                    <div key={index} className='p-4 border-b border-gray-300 max-w-2xl text-center mx-auto'>
                       <h2 className='text-2xl font-semibold text-center'>{product.name}</h2>
                       <div className='flex justify-center items-center text-center'>
                       
@@ -90,7 +96,7 @@ const ProductBar = () => {
                 opts={{
                   align: "start",
                 }}
-                className="w-full max-w-sm p-4 justify-center items-center"
+                className="w-full max-w-sm p-4 justify-center items-center mx-auto"
               >
                           <CarouselContent>
                             <CarouselItem className="items-center justify-center flex">
@@ -125,6 +131,8 @@ const ProductBar = () => {
                 more stuff to come :)
             </p>
                 </div>
+        </div>
+        
     );
 }
 
