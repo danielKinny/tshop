@@ -2,7 +2,7 @@ import React from "react";
 
 const TsandcS = () => {
   return (
-    <div className="justify-center items-center border-t-2 p-8 border-b-2 mb-10 rounded-2xl text-center space-y-8 w-2/3">
+    <div className="justify-center items-center border-t-2 p-8 border-b-2 mb-10 rounded-2xl text-center space-y-8">
       <h1 className="text-2xl font-extrabold">Terms and Conditions</h1>
 
       <p className="text-lg">This store is a small online clothing reseller offering thrifted items for sale. We aim to provide accurate descriptions and quality products, but please read each listing carefully before purchase.</p>
