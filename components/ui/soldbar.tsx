@@ -17,7 +17,7 @@ const SoldBar = () => {
     const soldItems : productType[] = [
         {
       id: "0001",
-      name: "mclovin's id card from superbad [M]",
+      name: "random school jacket",
       price: 35,
       front: "/images/0001-1.png",
       back: "/images/0001-2.png",
@@ -25,7 +25,7 @@ const SoldBar = () => {
     
     {
       id: "0004",
-      name: "hard soda mr.escobar [L]",
+      name: "PAKISTAN ZINDABAD",
       price: 25,
       front: "/images/0004-1.png",
       back: "/images/0004-2.png",
@@ -78,8 +78,6 @@ const SoldBar = () => {
                               <CarouselNext className='bg-white border border-black hover:bg-black hover:text-white'/>
                             </Carousel>
                           </div>
-                          
-                          <p className='text-xl font-bold text-center'>{product.price +" dirhams"}</p>
                         </div>
                       ))
             }
