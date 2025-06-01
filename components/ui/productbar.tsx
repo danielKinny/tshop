@@ -19,21 +19,7 @@ export interface productType {
     }
 
   const clothes: productType[] = [
-    {
-      id: "0000",
-      name: "mclovin's id card from superbad [M]",
-      price: 35,
-      front: "/images/0000-1.png",
-      back: "/images/0000-2.png",
-    },
     
-    {
-      id: "0006",
-      name: "hard soda mr.escobar [L]",
-      price: 25,
-      front: "/images/0006-1.png",
-      back: "/images/0006-2.png",
-    },
     {
       id: "0007",
       name: " hbd grimace [L]",
@@ -48,13 +34,7 @@ export interface productType {
       front: "/images/0008-1.png",
       back: "/images/0008-2.png",
     },
-    {
-      id: "0009",
-      name: "cactus jack mcd's crew tee [M]",
-      price: 30,
-      front: "/images/0007-1.png",
-      back: "/images/0007-2.png",
-    },
+    
     {
       id: "0010",
       name: "chick-fil-a chiken [L]",
