@@ -4,21 +4,9 @@ import Image from "next/image";
 const TsandcS = () => {
   return (
     <>
-      <div className="mt-10 relative w-screen h-[100px] left-1/2 -translate-x-1/2 flex justify-center items-center mb-8">
-        <Image
-          src="/images/asd.jpg"
-          alt="Terms and Conditions Banner"
-          fill
-          className="object-cover rounded-none"
-          priority
-        />
-        <div className="absolute inset-0 flex flex-col justify-center items-center">
-          <h1 className="text-2xl font-extrabold px-4 py-2 rounded-lg" style={{ color: "#f120ab" }}>
-            drafted by delisha dias
-          </h1>
-        </div>
+      <div className="mt-10 relative w-screen h-[100px] left-1/2 -translate-x-1/2 flex justify-center items-center">
       </div>
-      <div className="justify-center items-center border-t-2 p-8 border-b-2 mb-10 rounded-2xl text-center space-y-8">
+      <div className="justify-center items-center border-t-2 p-8 border-b-2 rounded-2xl text-center space-y-8">
         <h1 className="text-2xl font-extrabold">Terms and Conditions</h1>
 
         <p className="text-lg">This store is a small online clothing reseller offering thrifted items for sale. We aim to provide accurate descriptions and quality products, but please read each listing carefully before purchase.</p>
